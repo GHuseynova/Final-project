@@ -130,6 +130,18 @@ li {
 .second{
     padding: 10px 0px;
 }
+.ceramics-cards{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.ceramics-cards div img{
+  height: 275px;
+  width: 205px;
+
+}
+
+
 /* For responsive design */
 @media screen and (max-width: 391px) {
   .header-top {
@@ -193,7 +205,25 @@ li {
       flex-direction: column;
       margin: 0px;
   }
-  /* .brand-name{
-      p
-  } */
+  .brand-name{
+      width:90%;
+      padding: 30px;
+  }
+  .brand-name h3{
+      font-size: 25px; 
+      font-weight: 300; 
+  }
+  
+  .brand-cards div {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .brand-cards div p {
+      font-size: 15px;
+      width: 100%;
+  }
+  .brand-cards div .second,i {
+    font-size: 20px;
+}
+
 }
