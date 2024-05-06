@@ -104,43 +104,96 @@ li {
 .furniture-mobile {
   display: none;
 }
-.brand-name{
-    display: flex;
-    align-items: center;
-   justify-content: center;
-   color:#22202e;
+.brand-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22202e;
 }
-.brand-name h3{
-    font-weight: 400;
+.brand-name h3 {
+  font-weight: 400;
 }
-.brand-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+.brand-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
   color: #22202e;
   margin-left: 30px;
 }
-.brand-cards div{
-    margin-right:30px;
+.brand-cards div {
+  margin-right: 30px;
 }
-.brand-cards div p{
-    font-size: 10px;
+.brand-cards div p {
+  font-size: 10px;
 }
-.second{
-    padding: 10px 0px;
+.second {
+  padding: 10px 0px;
 }
-.ceramics-cards{
- display: flex;
- justify-content: center;
- align-items: center;
+.ceramics-cards {
+  color: #22202e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.ceramics-cards div img{
-  height: 275px;
-  width: 205px;
-
+.ceramics-title {
+  padding: 20px;
+  margin-left: 53px;
 }
-
+.ceramics-title h3 {
+  color: #22202e;
+  font-weight: 400;
+  margin-left: 55px;
+}
+.ceramics-cards div img {
+  height: 250px;
+  width: 200px;
+}
+.ceramics-cards div {
+  margin-left: 100px;
+}
+.ceramics-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramics-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
+.ceramics-mobile-cards {
+  display: none;
+}
+.products-card {
+  color: #22202e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-title h3 {
+  font-weight: 400;
+  margin-left: 125px;
+  color: #2a254b;
+}
+.products-card div img {
+  height: 300px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.products-card div p {
+  margin-left: 30px;
+}
+.products-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-view a {
+  color: #2a254b;
+  background-color: rgba(68, 33, 33, 0.037);
+  padding: 15px 20px;
+}
 
 /* For responsive design */
 @media screen and (max-width: 391px) {
@@ -185,45 +238,107 @@ li {
   .furn-mob-name p {
     font-size: 25px;
   }
-  .furn-mob-title{
-      padding: 130px 10px 20px 10px;
+  .furn-mob-title {
+    padding: 130px 10px 20px 10px;
   }
-  .furn-mob-title p{
-      font-weight:300;
+  .furn-mob-title p {
+    font-weight: 300;
   }
-  .furn-mob-button{
-      display: flex;
-      align-items:center;
-      justify-content: center;
+  .furn-mob-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .furn-mob-button a{
+  .furn-mob-button a {
     background-color: rgba(249, 249, 249, 0.15);
     padding: 10px 130px;
-    color:rgba(247, 247, 247, 0.804);
+    color: rgba(247, 247, 247, 0.804);
   }
-  .brand-cards{
-      flex-direction: column;
-      margin: 0px;
+  .brand-cards {
+    flex-direction: column;
+    margin: 0px;
   }
-  .brand-name{
-      width:90%;
-      padding: 30px;
+  .brand-name {
+    width: 90%;
+    padding: 30px;
   }
-  .brand-name h3{
-      font-size: 25px; 
-      font-weight: 300; 
+  .brand-name h3 {
+    font-size: 25px;
+    font-weight: 300;
   }
-  
+
   .brand-cards div {
     width: 100%;
     padding: 20px 0px;
   }
   .brand-cards div p {
-      font-size: 15px;
-      width: 100%;
+    font-size: 15px;
+    width: 100%;
   }
   .brand-cards div .second,i {
     font-size: 20px;
-}
-
+  }
+  .ceramics-title {
+     margin-left: -50px;
+  }
+  .ceramics-cards {
+    display: none;
+  }
+  .ceramics-mobile-cards {
+    display: flex;
+    margin: 7px;
+    color: #22202e;
+  }
+  .ceramics-mobile-cards div img {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .bottom-card div img {
+    padding: 5px;
+    height: 250px;
+    width: 180px;
+  }
+  .top-card div img {
+    padding: 5px;
+    height: 250px;
+    width: 180px;
+  }
+  .ceramics-view {
+    padding: 20px;
+  }
+  .ceramics-view a {
+    color: #22202e;
+    text-align: center;
+    width: 400px;
+  }
+  .products-title h3 {
+    padding: 7px;
+    margin: 0;
+  }
+  .products-sofa {
+    display: none;
+  }
+  .products-card{
+    color: #22202e;
+  }
+  .products-card div {
+    padding: 10px;
+  }
+  .products-card div img {
+    margin: 0;
+    padding: 16px;
+    height: 250px;
+    width: 200px;
+  }
+  .darkchair{
+    margin-left: -10px;
+  }
+  .products-view {
+    padding: 20px;
+  }
+  .products-view a {
+    color: #22202e;
+    text-align: center;
+    width: 400px;
+  }
 }
