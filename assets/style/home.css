@@ -150,7 +150,7 @@ li {
   width: 200px;
 }
 .ceramics-cards div {
-  margin-left: 100px;
+  margin-left: 20px;
 }
 .ceramics-view {
   display: flex;
@@ -178,7 +178,7 @@ li {
 }
 .products-card div img {
   height: 300px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding: 10px;
 }
 .products-card div p {
@@ -193,6 +193,146 @@ li {
   color: #2a254b;
   background-color: rgba(68, 33, 33, 0.037);
   padding: 15px 20px;
+}
+.join-club {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-club-benefits h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+.join-club-singup {
+  padding: 20px 20px;
+  /* margin-left: 25px; */
+}
+.join-club-singup p {
+  font-size: 13px;
+  text-align: center;
+}
+.join-club-mobile {
+  display: none;
+}
+.join-club-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.join-club-email input {
+  padding: 10px;
+  border-style: none;
+  background-color: rgba(231, 221, 221, 0.849);
+  width: 400px;
+  color: gray;
+}
+.join-club-email button {
+  padding: 10px;
+  background-color: #22202e;
+  color: white;
+  margin-left: -20px;
+}
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-touch-info {
+  padding: 20px;
+}
+.get-info-title h3 {
+  font-weight: 300;
+  color: #22202e;
+}
+.get-info-description p {
+  font-size: 13px;
+  padding: 15px 0px;
+}
+.get-info-about p {
+  font-size: 13px;
+}
+.get-info-subscribe {
+  padding-top: 150px;
+}
+.get-info-subscribe a {
+  color: #22202e;
+  background-color: rgba(231, 221, 221, 0.849);
+  padding: 13px;
+}
+footer {
+  background-color: #2a254b;
+  color: white;
+}
+
+.footer-top {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav div ul li {
+  font-weight: 200;
+}
+.footer-nav div {
+  margin-left: 70px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: -79px;
+}
+.for-input input {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 0;
+  padding: 5px;
+}
+
+.for-input input::placeholder {
+  color: white;
+}
+
+.for-input input:focus {
+  outline: none;
+}
+.for-input button {
+  padding: 4px;
+  margin-left: -3px;
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+footer form label {
+  margin-bottom: 5px;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;   
+  border-top: 1px solid white; 
+  width: 90%;
+  margin-left: 60px; 
+  padding: 10px;                                                                                                           
+}
+.footer-copy{
+  margin-right: 430px;
+}
+.footer-icon i{
+  margin-left: 5px;
 }
 
 /* For responsive design */
@@ -275,11 +415,12 @@ li {
     font-size: 15px;
     width: 100%;
   }
-  .brand-cards div .second,i {
+  .brand-cards div .second,
+  i {
     font-size: 20px;
   }
   .ceramics-title {
-     margin-left: -50px;
+    margin-left: -50px;
   }
   .ceramics-cards {
     display: none;
@@ -318,7 +459,7 @@ li {
   .products-sofa {
     display: none;
   }
-  .products-card{
+  .products-card {
     color: #22202e;
   }
   .products-card div {
@@ -330,7 +471,7 @@ li {
     height: 250px;
     width: 200px;
   }
-  .darkchair{
+  .darkchair {
     margin-left: -10px;
   }
   .products-view {
@@ -340,5 +481,39 @@ li {
     color: #22202e;
     text-align: center;
     width: 400px;
+  }
+  .join-club-benefits div h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #22202e;
+  }
+  .join-club-singup {
+    display: none;
+  }
+  .join-club-mobile {
+    display: flex;
+    width: 350px;
+    padding: 10px;
+  }
+  .join-club-mobile p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .join-club-email input {
+    width: 210px;
+  }
+  .get-in-touch {
+    flex-direction: column;
+  }
+  .get-info-title {
+    width: 70%;
+    font-size: 16px;
+  }
+  .get-info-subscribe {
+    padding-top: 90px;
+  }
+  .get-info-subscribe a {
+    text-align: center;
+    padding: 13px 130px;
   }
 }
