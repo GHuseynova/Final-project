@@ -240,6 +240,9 @@ li {
   align-items: center;
   justify-content: center;
 }
+.get-in-img img{
+   width: 400px;
+}
 .get-touch-info {
   padding: 20px;
 }
@@ -333,6 +336,9 @@ footer form label {
 }
 .footer-icon i{
   margin-left: 5px;
+}
+.footer-mobile{
+  display: none;
 }
 
 /* For responsive design */
@@ -516,4 +522,64 @@ footer form label {
     text-align: center;
     padding: 13px 130px;
   }
+  .footer-nav{
+    display: none;
+  }
+  .footer-mobile{
+    display: block;
+}
+.footer-list  div ul li{
+  font-weight: 300;
+}
+.footer-list{
+  display: flex;
+}
+
+.footer-list div{
+  margin-left:50px;
+}
+.footer-form{
+  display: none;
+}
+.footer-copany{
+  margin-left:50px;
+  padding-top: 10px;
+}
+.footer-form{
+  display: block;
+  margin-top:120px;
+  margin-left:50px;
+  font-size: 25px;
+}
+.for-input{
+  width: 500px;
+}
+.for-input input{
+  padding: 10px;
+  font-size: 15px;
+}
+.for-input button{
+  padding:10px;
+}
+.footer-menu{
+  display: block;
+  padding:50px 0px;
+}
+.footer-bottom{
+width: 100%;
+  color: #fff;
+  margin: 0;
+}
+.footer-copy p{
+  padding:15px 0px;
+}
+.footer-top{
+  padding: 0;
+}
+.footer-copy{
+  margin: 0;
+}
+.footer-icon{
+  display: none;
+}
 }
