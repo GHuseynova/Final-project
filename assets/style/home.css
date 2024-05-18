@@ -311,13 +311,7 @@ footer form {
 .for-input input:focus {
   outline: none;
 }
-.for-input button {
-  padding: 4px;
-  margin-left: -3px;
-  background-color: white;
-  border: 0;
-  cursor: pointer;
-}
+
 footer form label {
   margin-bottom: 5px;
 }
