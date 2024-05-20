@@ -9,7 +9,8 @@
 h1,
 h3,
 p,
-li {
+li,
+a {
 font-family: "Poppins";
 }
 .header-top {
@@ -36,7 +37,7 @@ font-family: "Poppins";
   color: #22202e  ;
 }
 .top-nav {
-  margin-left: 55%;
+  margin-left: 50%;
 }
 .icon-mobile{
   display: none;
@@ -58,8 +59,9 @@ font-family: "Poppins";
 }
 .menu {
   display: flex;
+  padding: 10px;
 }
-.menu li {
+.menu li  {
   margin-left: 32px;
 }
 .top-icon i {
@@ -76,7 +78,7 @@ font-family: "Poppins";
 .bottom-menu {
   display: flex;
 }
-.bottom-menu li {
+.bottom-menu li a {
   margin-left: 16px;
 }
 .header-for-mobile {
@@ -453,6 +455,37 @@ font-family: "Poppins";
   .brand-cards div .second,
   i {
     font-size: 20px;
+  }
+  .join {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .join-menu p {
+    text-align: left;
+  }
+  .join-text {
+    display: none;
+  }
+  .join-text-mobile{
+    display: block;
+  }
+  .join-text-mobile p{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .join-list ul{
+    flex-direction: column;
+    align-items: start;
+    padding:10px ;
+    margin-left: -30px;
+  }
+  .join-list ul li{
+    padding: 7px;
+  }
+  .join-club-email input{
+     width: 275px;
+     background-color:white;
   }
 
 }

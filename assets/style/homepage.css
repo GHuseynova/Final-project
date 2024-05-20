@@ -15,7 +15,10 @@
   padding: 10px;
   color: #22202e;
 }
-
+.avion-logo p a{
+  color: #22202e;
+  font-weight: 300;
+}
 .header-icon i {
   margin-left: 10px;
 }
@@ -28,8 +31,10 @@
   align-items: center;
   padding: 7px;
 }
-.header-bottom ul li {
+.header-bottom ul li a {
   margin: 10px;
+  color: #22202e;
+  font-weight: 300;
 }
 .header-bottom {
   border-top: 1px solid gray;

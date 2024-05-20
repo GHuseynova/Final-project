@@ -9,7 +9,8 @@
 h1,
 h3,
 p,
-li {
+li,
+a {
   font-family: "Poppins";
 }
 /* For Top Header  */
@@ -24,11 +25,14 @@ li {
 .top-nav {
   margin-left: 55%;
 }
-
+.logo h3 a{
+  color: #22202e;
+  font-weight: 300;
+}
 .menu {
   display: flex;
 }
-.menu li {
+.menu li a {
   margin-left: 32px;
 }
 .top-icon i {
@@ -45,7 +49,7 @@ li {
 .bottom-menu {
   display: flex;
 }
-.bottom-menu li {
+.bottom-menu li a {
   margin-left: 16px;
 }
 .header-for-mobile {
@@ -178,7 +182,6 @@ li {
 }
 .products-card div img {
   height: 300px;
-  /* margin-left: 20px; */
   padding: 10px;
 }
 .products-card div p {
@@ -240,8 +243,8 @@ li {
   align-items: center;
   justify-content: center;
 }
-.get-in-img img{
-   width: 400px;
+.get-in-img img {
+  width: 400px;
 }
 .get-touch-info {
   padding: 20px;
@@ -316,22 +319,22 @@ footer form label {
   margin-bottom: 5px;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-around;   
-  border-top: 1px solid white; 
+  justify-content: space-around;
+  border-top: 1px solid white;
   width: 90%;
-  margin-left: 60px; 
-  padding: 10px;                                                                                                           
+  margin-left: 60px;
+  padding: 10px;
 }
-.footer-copy{
+.footer-copy {
   margin-right: 430px;
 }
-.footer-icon i{
+.footer-icon i {
   margin-left: 5px;
 }
-.footer-mobile{
+.footer-mobile {
   display: none;
 }
 
@@ -516,64 +519,64 @@ footer form label {
     text-align: center;
     padding: 13px 130px;
   }
-  .footer-nav{
+  .footer-nav {
     display: none;
   }
-  .footer-mobile{
+  .footer-mobile {
     display: block;
-}
-.footer-list  div ul li{
-  font-weight: 300;
-}
-.footer-list{
-  display: flex;
-}
+  }
+  .footer-list div ul li {
+    font-weight: 300;
+  }
+  .footer-list {
+    display: flex;
+  }
 
-.footer-list div{
-  margin-left:50px;
-}
-.footer-form{
-  display: none;
-}
-.footer-copany{
-  margin-left:50px;
-  padding-top: 10px;
-}
-.footer-form{
-  display: block;
-  margin-top:120px;
-  margin-left:50px;
-  font-size: 25px;
-}
-.for-input{
-  width: 500px;
-}
-.for-input input{
-  padding: 10px;
-  font-size: 15px;
-}
-.for-input button{
-  padding:10px;
-}
-.footer-menu{
-  display: block;
-  padding:50px 0px;
-}
-.footer-bottom{
-width: 100%;
-  color: #fff;
-  margin: 0;
-}
-.footer-copy p{
-  padding:15px 0px;
-}
-.footer-top{
-  padding: 0;
-}
-.footer-copy{
-  margin: 0;
-}
-.footer-icon{
-  display: none;
-}
+  .footer-list div {
+    margin-left: 50px;
+  }
+  .footer-form {
+    display: none;
+  }
+  .footer-copany {
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+  .footer-form {
+    display: block;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+  .for-input {
+    width: 500px;
+  }
+  .for-input input {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .for-input button {
+    padding: 10px;
+  }
+  .footer-menu {
+    display: block;
+    padding: 50px 0px;
+  }
+  .footer-bottom {
+    width: 100%;
+    color: #fff;
+    margin: 0;
+  }
+  .footer-copy p {
+    padding: 15px 0px;
+  }
+  .footer-top {
+    padding: 0;
+  }
+  .footer-copy {
+    margin: 0;
+  }
+  .footer-icon {
+    display: none;
+  }
 }
