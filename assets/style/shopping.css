@@ -136,6 +136,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0px;
 }
 .ceramics-view a {
   color: #2a254b;
